@@ -23,7 +23,7 @@ public class FacebookLogin {
 		ChromeDriverManager.getInstance().setup();
 	    driver = new ChromeDriver();
     baseUrl = "https://www.katalon.com/";
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
   }
 
   @Test
